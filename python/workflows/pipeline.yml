@@ -1,0 +1,10 @@
+name: Python Check Style
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  checkstyle-python:
+    run-on:
+      - ubuntu-latest
