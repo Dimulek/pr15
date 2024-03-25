@@ -1,8 +1,0 @@
-FROM python:3.11
-
-RUN pip install mysql-connector-python
-RUN pip install telebot
-
-WORKDIR /usr/app/src
-
-COPY main.py ./
